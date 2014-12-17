@@ -13,17 +13,20 @@
     "node"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "npm run test-integration",
+    "test-integration": "tap tests/integration/*.js"
   },
   "dependencies": {
     "express": ">=3.0.6",
-    "socket.io": "~1.1.0",
     "nodemon": "=1.0.17",
-    "chai": "=1.9.1"
+    "socket.io": "~1.1.0"
   },
   "author": "Damiano Braga",
   "license": "BSD",
   "devDependencies": {
-    "socket.io": "~1.1.0"
+    "request": "^2.51.0",
+    "send-data": "^3.3.3",
+    "tap": "^0.4.13"
   }
 }

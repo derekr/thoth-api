@@ -1,0 +1,18 @@
+{
+  "response": {
+    "numFound": 2,
+    "start": 0,
+    "docs": [
+      {
+        "date_dt": "2014-11-28T23:19:53.318Z",
+        "params_s": "{q=*:*rows=3}",
+        "qtime_i": 823
+      },
+      {
+        "date_dt": "2014-11-28T23:32:40.779Z",
+        "params_s": "{q=*:*&rows=15}",
+        "qtime_i": 811
+      }
+    ]
+  }
+}

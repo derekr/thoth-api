@@ -25,7 +25,21 @@ npm install
 npm start // starts api web server
 ```
 
+Tests
+=======================
 
+Integration tests run a mock `thoth-index` server on port `3002`.
+You'll need to run `thoth-api` w/ `THOTH_PORT=3002`.
+
+```sh
+THOTH_PORT=3002 node index.js
+```
+
+While the `thoth-api` server is up run:
+
+```
+npm test
+```
 
 Contributing
 =======================

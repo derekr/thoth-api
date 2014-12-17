@@ -48,18 +48,18 @@ var routeBase = [
  */
 var serverRoute = util.format(routeBase, 'server', ':server');
 app.get(serverRoute, function (req, res) {
-  serversDispatcher.dispatchServer(req, res)
+  serversDispatcher.dispatchServer(req, res);
 });
 
 app.get(serverRoute + '/:page', function (req, res) {
-  serversDispatcher.dispatchServer(req, res)
+  serversDispatcher.dispatchServer(req, res);
 });
 
 /**
  * Pools
  */
 app.get(util.format(routeBase, 'pool', ':pool'), function (req, res) {
-  poolsDispatcher.dispatchPool(req, res)
+  poolsDispatcher.dispatchPool(req, res);
 });
 
 /**
